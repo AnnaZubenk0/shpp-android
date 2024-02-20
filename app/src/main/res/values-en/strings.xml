@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" translatable="false">First app</string>
+    <string name="settings_button"> Settings </string>
+    <string name="edit_profile_button"> Edit profile </string>
+    <string name="view_cont_button"> View my contacts </string>
+    <string name="hello_text_view"> Hello! </string>
+    <string name="hint_info"> Enter your email and password below </string>
+    <string name="e_mail_input"> E-mail </string>
+    <string name="password_input"> Password </string>
+    <string name="check_box_remember"> Remember me </string>
+    <string name="forgot_password"> Forgot your password? </string>
+    <string name="login_button"> LOGIN </string>
+    <string name="info_text"> Don’t have account? </string>
+    <string name="sign_up_text"> Sign up </string>
+    <string name="sign_up_hint"> Fill out the profile and go to the application! </string>
+    <string name="google_button" translatable="false"> GOOGLE </string>
+    <string name="login_account"> Already have an account? </string>
+    <string name="agreement">" By clicking Register you agree to our Terms   and Conditions "</string>
+    <string name="register_button"> REGISTER </string>
+    <string name="or"> or </string>
+    <string name="sign_up_info">" Let's get acquainted "</string>
+</resources>
