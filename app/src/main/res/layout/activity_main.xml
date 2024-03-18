@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport = "true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/dark_blue"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewSettings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/roboto_slab_regular"
+                    android:text="@string/settings_button"
+                    android:textColor="@color/main_text_col"
+                    android:textSize="28sp" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/shapeableImageAvatar"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="24dp"
+                    app:shapeAppearanceOverlay="@style/circleImageView"
+                    android:src="@drawable/no_photo_icon" />
+
+                <TextView
+                    android:id="@+id/textViewName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="24dp"
+                    android:fontFamily="@font/roboto_slab_regular"
+                    android:textColor="@color/main_text_col"
+                    android:textSize="18sp"
+                    tools:text="name" />
+
+                <TextView
+                    android:id="@+id/textViewProfession"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/roboto_slab_regular"
+                    android:textSize="14sp"
+                    android:textColor="@color/light_grey"
+                    tools:text="profession" />
+
+                <TextView
+                    android:id="@+id/textViewAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="56dp"
+                    android:fontFamily="@font/roboto_slab_regular"
+                    android:textColor="@color/light_grey"
+                    android:textSize="14sp"
+                    tools:text="address" />
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlFooter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/main_rl_footer_col">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/shapeableImageFbIcon"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:alpha="0.8"
+                    android:layout_marginTop="60dp"
+                    android:layout_toStartOf="@id/shapeableImageInIcon"
+                    app:shapeAppearanceOverlay="@style/circleImageView"
+                    android:src="@drawable/fb_icon"
+                    />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/shapeableImageInIcon"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:alpha="0.8"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginRight="32dp"
+                    app:shapeAppearanceOverlay="@style/circleImageView"
+                    android:src="@drawable/in_icon" />
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/shapeableImageVkIcon"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_toEndOf="@id/shapeableImageInIcon"
+                    android:alpha="0.8"
+                    app:shapeAppearanceOverlay="@style/circleImageView"
+                    android:src="@drawable/vk_icon" />
+
+                <Button
+                    android:id="@+id/buttonEditProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/shapeableImageInIcon"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="96dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/rounded_button_outline"
+                    android:fontFamily="@font/roboto_slab_regular"
+                    android:text="@string/edit_profile_button"
+                    android:textAllCaps="false"
+                    android:textColor="@color/edit_but_color"
+                    android:textSize="16sp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/buttonViewContacts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/buttonEditProfile"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="22dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="18dp"
+                    android:background="@drawable/rounded_button_outline"
+                    android:backgroundTint="@color/orange"
+                    android:fontFamily="@font/roboto_slab_regular"
+                    android:paddingTop="18dp"
+                    android:paddingBottom="18dp"
+                    android:text="@string/view_cont_button"
+                    android:textSize="20sp"
+                    />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

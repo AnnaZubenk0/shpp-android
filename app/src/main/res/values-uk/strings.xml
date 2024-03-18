@@ -1,0 +1,22 @@
+<resources>
+    <string name="settings_button"> Налаштування </string>
+    <string name="edit_profile_button"> Редагувати профіль </string>
+    <string name="view_cont_button"> Переглянути контакти </string>
+    <string name="hello_text_view"> Привіт! </string>
+    <string name="hint_info"> Введіть електронну пошту та пароль нижче </string>
+    <string name="e_mail_input"> E-mail </string>
+    <string name="password_input"> Пароль </string>
+    <string name="check_box_remember"> Запам\'ятати мене </string>
+    <string name="forgot_password"> Забули пароль? </string>
+    <string name="login_button"> УВІЙТИ </string>
+    <string name="info_text"> Не маєте аккаунт? </string>
+    <string name="sign_up_text"> Зареєструватись </string>
+    <string name="sign_up_hint"> Заповніть профіль та переходьте до додатку! </string>
+    <string name="login_account"> Досі не маєте аккаунт? </string>
+    <string name="agreement">" Натиснувши «Зареєструватися», ви погоджуєтеся з нашими Умовами "</string>
+    <string name="register_button"> Реєстрація </string>
+    <string name="or"> або </string>
+    <string name="sign_up_info">" Давайте знайомитись! "</string>
+    <string name="incorrect_email_input">Не правильний формат введення електронної пошти!</string>
+    <string name="fill_all_input_fields">Будь-ласка, заповніть всі поля для вводу!</string>
+</resources>
