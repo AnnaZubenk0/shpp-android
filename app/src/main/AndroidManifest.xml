@@ -25,17 +25,9 @@
 
         <activity
             android:name=".MainActivity"
-            android:exported="true"
             android:theme="@style/Theme.FirstApp"
             >
         </activity>
-
-        <activity
-            android:name=".LoginActivity"
-            android:exported="true"
-            android:theme="@style/Theme.FirstApp"
-            >
-            </activity>
     </application>
 
 </manifest>

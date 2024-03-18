@@ -19,4 +19,6 @@
     <string name="register_button"> REGISTER </string>
     <string name="or"> or </string>
     <string name="sign_up_info"> Let\'s get acquainted </string>
+    <string name="incorrect_email_input">Incorrect email input format!</string>
+    <string name="fill_all_input_fields">Please fill in all input fields!</string>
 </resources>

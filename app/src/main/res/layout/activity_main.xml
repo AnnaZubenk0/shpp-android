@@ -25,7 +25,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/llSettings"
+                    android:id="@+id/textViewSettings"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
@@ -36,7 +36,7 @@
                     android:textSize="28sp" />
 
                 <com.google.android.material.imageview.ShapeableImageView
-                    android:id="@+id/llImage"
+                    android:id="@+id/shapeableImageAvatar"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
                     android:layout_gravity="center_horizontal"
@@ -45,7 +45,7 @@
                     android:src="@drawable/no_photo_icon" />
 
                 <TextView
-                    android:id="@+id/llName"
+                    android:id="@+id/textViewName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -56,7 +56,7 @@
                     tools:text="name" />
 
                 <TextView
-                    android:id="@+id/llProfession"
+                    android:id="@+id/textViewProfession"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -67,7 +67,7 @@
                     tools:text="profession" />
 
                 <TextView
-                    android:id="@+id/llAddress"
+                    android:id="@+id/textViewAddress"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -89,18 +89,18 @@
                 android:background="@color/main_rl_footer_col">
 
                 <com.google.android.material.imageview.ShapeableImageView
-                    android:id="@+id/rlFbIcon"
+                    android:id="@+id/shapeableImageFbIcon"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:alpha="0.8"
                     android:layout_marginTop="60dp"
-                    android:layout_toStartOf="@id/rlInIcon"
+                    android:layout_toStartOf="@id/shapeableImageInIcon"
                     app:shapeAppearanceOverlay="@style/circleImageView"
                     android:src="@drawable/fb_icon"
                     />
 
                 <com.google.android.material.imageview.ShapeableImageView
-                    android:id="@+id/rlInIcon"
+                    android:id="@+id/shapeableImageInIcon"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:alpha="0.8"
@@ -112,20 +112,20 @@
                     android:src="@drawable/in_icon" />
 
                 <com.google.android.material.imageview.ShapeableImageView
-                    android:id="@+id/rlVkIcon"
+                    android:id="@+id/shapeableImageVkIcon"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_marginTop="60dp"
-                    android:layout_toEndOf="@id/rlInIcon"
+                    android:layout_toEndOf="@id/shapeableImageInIcon"
                     android:alpha="0.8"
                     app:shapeAppearanceOverlay="@style/circleImageView"
                     android:src="@drawable/vk_icon" />
 
                 <Button
-                    android:id="@+id/rlEditProfileButton"
+                    android:id="@+id/buttonEditProfile"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/rlInIcon"
+                    android:layout_below="@+id/shapeableImageInIcon"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="96dp"
                     android:layout_marginEnd="16dp"
@@ -137,10 +137,10 @@
                     android:textSize="16sp" />
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/rlViewContButton"
+                    android:id="@+id/buttonViewContacts"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/rlEditProfileButton"
+                    android:layout_below="@+id/buttonEditProfile"
                     android:layout_marginStart="16dp"
                     android:layout_marginTop="22dp"
                     android:layout_marginEnd="16dp"
